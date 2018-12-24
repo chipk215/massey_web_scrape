@@ -184,7 +184,7 @@ def run_main():
                 # ignore subsequent copies of the header row
                 continue
         else:
-            # Use Duke, a single work Team to compute fixed field widths
+            # Use Duke, a single word Team to compute fixed field widths
             if not duke_found:
                 if line.find('Duke'):
                     # Compute the fixed field widths
